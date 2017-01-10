@@ -1,0 +1,25 @@
+{
+  "name": "ackmud",
+  "version": "1.0.0",
+  "description": "https://xkcd.com/244/",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ack/watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ackmud/ackmud.git"
+  },
+  "author": "Greg Smith <smr.kyu@gmail.com> (http://github.com/smrq)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ackmud/ackmud/issues"
+  },
+  "homepage": "https://github.com/ackmud/ackmud#readme",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-preset-babili": "0.0.9",
+    "chokidar": "^1.6.1"
+  }
+}
